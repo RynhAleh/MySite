@@ -537,7 +537,7 @@ section:nth-of-type(2) .label-wrap .label {
 section:nth-of-type(2) .bullet-wrap {
   height: 200px;
   justify-content: flex-start;
-  padding: 0 7px;
+  padding: 0 7px 70px 0;
 }
 section:nth-of-type(2) .highlight {
   color: #009ada;
@@ -669,7 +669,7 @@ section:nth-of-type(3) .filter {
   cursor: pointer;
   font-size: 6pt;
   font-weight: 600;
-  padding: 0 20px;
+  padding: 0 15px;
   transition: background-color 0.5s;
 }
 section:nth-of-type(3) .float-bar {
@@ -1004,6 +1004,7 @@ footer .footnote .highlight {
 }
 
 
+
 @media screen and (min-width: 600px) {
   body {
     font-size: 12pt;
@@ -1271,6 +1272,7 @@ footer .footnote .highlight {
   }
   section:nth-of-type(2) .skills-wrapper .me {
     margin: 0;
+    padding-top: 10px;
   }
   section:nth-of-type(2) .bar {
     max-width: 90%;
@@ -1278,7 +1280,7 @@ footer .footnote .highlight {
   section:nth-of-type(2) .bullet-wrap {
     height: intial;
     margin: 0;
-    padding: 0 10px;
+    padding: 0 10px ;
   }
   section:nth-of-type(3) #gallery .mix .card {
     width: 390px;
