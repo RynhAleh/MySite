@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Raleway";
-  src: url("http://findmatthew.com/style/../fonts/Raleway-Regular.ttf");
+  src: url("https://rynhaleh.github.io/MySite/fonts/Raleway-Regular.ttf");
 }
 @font-face {
   font-family: "Raleway-semibold";
-  src: url("http://findmatthew.com/style/../fonts/Raleway-SemiBold.ttf");
+  src: url("https://rynhaleh.github.io/MySite/fonts/Raleway-SemiBold.ttf");
 }
 @font-face {
   font-family: "Raleway-bold";
-  src: url("http://findmatthew.com/style/../fonts/Raleway-Bold.ttf");
+  src: url("https://rynhaleh.github.io/MySite/fonts/Raleway-Bold.ttf");
 }
 @keyframes fadeIn {
   100% {
@@ -729,22 +729,22 @@ section:nth-of-type(3) #gallery .mix .button:hover {
   color: #fff;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(1) .card {
-  background: url("img/thumb-1.jpg") center center/cover;
+  background: url("https://rynhaleh.github.io/MySite/img/thumb-1.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(2) .card {
-  background: url("img/thumb-2.jpg") center center/cover;
+  background: url("https://rynhaleh.github.io/MySite/img/thumb-2.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(3) .card {
-  background: url("img/thumb-3.jpg") center center/cover;
+  background: url("https://rynhaleh.github.io/MySite/img/thumb-3.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(4) .card {
-  background: url("img/thumb-4.jpg") center center/cover;
+  background: url("https://rynhaleh.github.io/MySite/img/thumb-4.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(5) .card {
-  background: url("img/thumb-5.jpg") center center/cover;
+  background: url("https://rynhaleh.github.io/MySite/img/thumb-5.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(6) .card {
-  background: url("img/thumb-6.jpg") center center/cover;
+  background: url("https://rynhaleh.github.io/MySite/img/thumb-6.jpg") center center/cover;
 }
 
 section:nth-of-type(3) #gallery .mix .card {
@@ -790,16 +790,16 @@ section:nth-of-type(4) .blog-wrap {
   width: 100%;
 }
 section:nth-of-type(4) .blog-wrap #thumb-1 {
-  background: url("img/blog-1.jpg") center center/cover;
+  background: url("https://rynhaleh.github.io/MySite/img/blog-1.jpg") center center/cover;
 }
 section:nth-of-type(4) .blog-wrap #thumb-2 {
-  background: url("img/blog-2.jpg") center center/cover;
+  background: url("https://rynhaleh.github.io/MySite/img/blog-2.jpg") center center/cover;
 }
 section:nth-of-type(4) .blog-wrap #thumb-3 {
-  background: url("img/blog-3.jpg") center center/cover;
+  background: url("https://rynhaleh.github.io/MySite/img/blog-3.jpg") center center/cover;
 }
 section:nth-of-type(4) .blog-wrap #thumb-4 {
-  background: url("img/blog-4.jpg") center center/cover;
+  background: url("https://rynhaleh.github.io/MySite/img/blog-4.jpg") center center/cover;
 }
 section:nth-of-type(4) .blog-wrap .fade-wrap {
   transition: opacity 0.3s;
