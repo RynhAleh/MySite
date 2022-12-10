@@ -527,6 +527,10 @@ section:nth-of-type(1) .button .mdi {
 section:nth-of-type(1) .button:hover .mdi {
   transform: rotate(90deg);
 }
+
+section:nth-of-type(2) {
+  background: /*#f5f5f5*/#1A1A1A;
+}
 section:nth-of-type(2) .label-wrap .label {
   margin: 20px 0 10px 0;
 }
@@ -561,6 +565,13 @@ section:nth-of-type(2) .hexagon i {
   top: 20px;
   z-index: 1;
 }
+
+section:nth-of-type(2) .hexagon img {
+height: 80%;
+width: 80%;
+padding: 10%;
+}
+
 section:nth-of-type(2) .bars-wrap {
   margin: 50px auto 0 auto;
   max-width: 90%;
@@ -983,11 +994,15 @@ footer .footnote .highlight {
   font-family: "Open Sans";
 }
 
+
+
 @media screen and (max-width: 400px) {
   section:nth-of-type(3) #gallery .mix .card {
     width: 100vw;
   }
 }
+
+
 @media screen and (min-width: 600px) {
   body {
     font-size: 12pt;
@@ -1090,9 +1105,7 @@ footer .footnote .highlight {
   section:nth-of-type(1) .button .mdi {
     top: 16px;
   }
-  section:nth-of-type(2) {
-  background: /*#f5f5f5*/#1A1A1A;
-}
+
   section:nth-of-type(2) .label-wrap .label {
     margin: 15px 0 5px 0;
   }
@@ -1121,12 +1134,6 @@ footer .footnote .highlight {
   }
   section:nth-of-type(2) .hexagon i {
     font-size: 40pt;
-  }
-
-  section:nth-of-type(2) .hexagon img {
-    height: 80%;
-    width: 80%;
-    padding: 10%;
   }
 
   section:nth-of-type(3) .filter {

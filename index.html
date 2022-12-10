@@ -42,13 +42,13 @@
       <!-- HOME -->
       <div class="modal-wrap flex">
         <div class="mask"></div>
-        <div class="modal" id="modal">
-          <div class="carousel-wrap">
+        <div class="modal" id="modal" style="max-width: 375px;">
+          <div class="carousel-wrap" style="width: 700px;">
             <div class="window">
-              <div id="carousel">
-                <div class="slide"></div>
-                <div class="slide"></div>
-                <div class="slide"></div>
+              <div id="carousel" style="left: -700px;">
+                <div class="slide" style="width: 700px;"></div>
+                <div class="slide" style="width: 700px;"></div>
+                <div class="slide" style="width: 700px;"></div>
               </div>
               <i class="mdi mdi-chevron-left" id="prev"></i>
               <i class="mdi mdi-chevron-right" id="next"></i>
@@ -105,8 +105,9 @@
             data-delay=".5s"
           ></div>
 
-          <div style="display: flex;">
-              <div class="flex bullet-wrap">
+          <div class="flex row label-wrap">
+            <div class="flex row-gt-sm">
+              <div class="flex bullet-wrap ">
                 <div class="hex-wrap waypoint" data-animation="flip-in-x">
                   <div class="hexagon">
                     <img src="img/team-100.png">
@@ -135,6 +136,9 @@
                   <div>The job must be done, done on time and done efficiently. Time-management & control systems.</div>
                 </div>
               </div>
+            </div>
+
+            <div class="flex row-gt-sm">
               <div class="flex bullet-wrap">
                 <div
                   class="hex-wrap waypoint"
@@ -168,6 +172,7 @@
                   </div>
                 </div>
               </div>
+            </div>
           </div>
 
           <div class="skills-wrapper flex row-gt-sm">
