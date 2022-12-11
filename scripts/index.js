@@ -80,7 +80,7 @@ $(function() {
 
     lockTimer = setTimeout(function() {
       $('body').removeClass('disable-hover');
-    }, 500);
+    }, 100);
   });
 
   function highlightLink(anchor) {
