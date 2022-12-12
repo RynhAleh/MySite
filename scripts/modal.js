@@ -11,7 +11,7 @@ $(document).ready(function() {
     forex: {
       title: 'Forex trading',
       tag: 'AUTOMATED TRADING SYSTEMS',
-      detail: 'Hundreds of forex robots written have given me experience and some money. My automated advisor was sold to people all over the world and helped them earn money as well.',
+      detail: 'About a hundred of forex robots written have given me experience and some money. My automated advisor was sold to people all over the world and helped them earn money as well. My robot "Double Extremum" took 8th place on sql5.com in 2019',
       link: '#'
     },
     melarossa: {
