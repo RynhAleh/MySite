@@ -56,10 +56,10 @@ $(function() {
     }
     if (pos2 > $('#portfolio').offset().top && pos2 < $('#blog').offset().top) {
       highlightLink('portfolio');
-      if (Opened == 0) {
-        Opened=1;
-        setTimeout(() => {$('#gallery').mixItUp({});}, 350);
-      }
+//      if (Opened == 0) {
+//        Opened=1;
+//        setTimeout(() => {$('#gallery').mixItUp({});}, 350);
+//      }
     }
     if (pos2 > $('#blog').offset().top) {
       highlightLink('blog');
@@ -149,7 +149,7 @@ $(function() {
   }
 
   // GALLERY
-  //$('#gallery').mixItUp({});
+  $('#gallery').mixItUp({});
 
   function mixClear() {
     setTimeout(function() {
