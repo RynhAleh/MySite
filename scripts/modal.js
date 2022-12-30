@@ -19,7 +19,7 @@ $(document).ready(function() {
       tag: 'GRADUATING FROM IT-SCOOL',
       detail:
         'Software Testing: Test plan; Testing of documentation and requirements; Creating checklists; Designing tests; Developing tests; Test cases; Finding and documenting defects; TRR; Usability testing and testing of web applications; Automated testing; Software development methodologies (including Agile); Working with Jira, Postman, SQL, etc.',
-      link: '#'
+      link: 'https://melarossa.by/'
     },
     /*roambi*/django: {
       title: 'DJango Project',
@@ -33,7 +33,7 @@ $(document).ready(function() {
       tag: 'GRADUATING FROM IT-SCOOL',
       detail:
         'The way of Python: GIT, GitHub; Constructions of Python; Functional oriented & Object oriented programming; Databases; HTML & SCC; Django; Application architecture; JWT authorization; Website developing on Django; Flask; Website developing on Flask; Requests, etc.',
-      link: '#'
+      link: 'https://overone.by/'
     },
     /*powur*/flask: {
       title: 'Flask Project',
