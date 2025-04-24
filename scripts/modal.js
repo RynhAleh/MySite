@@ -5,7 +5,7 @@ $(document).ready(function() {
       title: 'CattleManagement',
       tag: 'ACCOUNTING SYSTEM',
       detail:
-        'I created a program that could provide cattle accounting by any authorized user from all over the world, according their roles',
+        "I've created a program that could provide cattle accounting by any authorized user from all over the world, according their roles",
       link: '#'
     },
     nika: {
