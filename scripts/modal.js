@@ -1,11 +1,18 @@
 $(document).ready(function() {
   // MODAL
   var modalText = {
+    cattle: {
+      title: 'CattleManagement',
+      tag: 'ACCOUNTING SYSTEM',
+      detail:
+        'I created a program that could provide cattle accounting by any authorized user from all over the world, according their roles',
+      link: '#'
+    },
     nika: {
       title: 'NikaSoft',
       tag: 'ACCOUNTING SYSTEM',
       detail:
-        'I wanted to creare a program that could provide accounting of enterprise by one person, an I succeed! NikaSoft does it in three enterprises and meets all accountatns needs: from payroll to equipment accounting',
+        'I wanted to create a program that could provide accounting of enterprise by one person, an I succeed! NikaSoft does it in three enterprises and meets all accountatns needs: from payroll to equipment accounting',
       link: '#'
     },
     forex: {
