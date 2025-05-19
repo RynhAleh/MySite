@@ -6,7 +6,7 @@ $(document).ready(function() {
       tag: 'ACCOUNTING SYSTEM',
       detail:
         "I've created a program that could provide cattle accounting by any authorized user from all over the world, according their roles",
-      link: '#'
+      link: 'https://ringoleg.site/'
     },
     nika: {
       title: 'NikaSoft',
